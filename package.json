@@ -185,5 +185,12 @@
     "languages": "js",
     "type": "library",
     "version": "0.48.5"
+  },
+  "dependencies": {
+    "formik": "^2.4.6",
+    "react-native-mask-input": "^1.2.3",
+    "react-native-size-matters": "^0.4.2",
+    "react-native-svg": "^15.11.2",
+    "yup": "^1.6.1"
   }
 }

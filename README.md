@@ -10,13 +10,6 @@ npm install react-native-loyalty-programs
 
 ## Usage
 
-
-```js
-import { multiply } from 'react-native-loyalty-programs';
-
-// ...
-
-const result = await multiply(3, 7);
 ```
 
 
@@ -31,3 +24,4 @@ MIT
 ---
 
 Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
+```

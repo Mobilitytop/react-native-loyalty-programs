@@ -1,20 +1,5 @@
-import { multiply } from 'react-native-loyalty-programs';
-import { Text, View, StyleSheet } from 'react-native';
-
-const result = multiply(3, 7);
+import { IssueCard } from 'react-native-loyalty-programs';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Result: {result}</Text>
-    </View>
-  );
+  return <IssueCard apiKey="" identifier="" loyaltyPrograms="" />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

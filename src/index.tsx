@@ -1,3 +1,4 @@
-export function multiply(a: number, b: number): number {
-  return a * b;
-}
+export { ActivationCard } from './ActivationCard';
+export { IssueCard } from './IssueCard';
+export { CashbackPoints } from './CashbackPoints';
+export { Bonus } from './Bonus';

@@ -1,0 +1,1 @@
+export { useTeyka } from './useTeyka';
