@@ -138,7 +138,7 @@ export const IssueCard = ({
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingHorizontal: moderateScale(15),
+    paddingHorizontal: moderateScale(13),
   },
   title: {
     fontSize: scale(26),
