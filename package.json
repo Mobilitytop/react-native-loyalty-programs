@@ -1,6 +1,6 @@
 {
   "name": "react-native-loyalty-programs",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "react-native-loyalty-programs",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
