@@ -12,14 +12,14 @@ export const activationCardStyles = StyleSheet.create({
   },
   title: {
     fontSize: scale(26),
-    fontWeight: 700,
+    fontWeight: '700',
     color: '#030303',
   },
   description: {
     color: '#828282',
     fontSize: scale(15),
     lineHeight: scale(20),
-    fontWeight: 400,
+    fontWeight: '400',
     marginTop: moderateVerticalScale(20),
   },
   card: {
@@ -40,7 +40,7 @@ export const activationCardStyles = StyleSheet.create({
   policy: {
     color: '#030303',
     fontSize: scale(13),
-    fontWeight: 400,
+    fontWeight: '400',
     marginTop: moderateVerticalScale(20),
   },
   button: {
@@ -55,7 +55,7 @@ export const activationCardStyles = StyleSheet.create({
     bottom: scale(20),
   },
   buttonText: {
-    fontWeight: 400,
+    fontWeight: '400',
     fontSize: scale(16),
     lineHeight: scale(18),
     color: '#fff',

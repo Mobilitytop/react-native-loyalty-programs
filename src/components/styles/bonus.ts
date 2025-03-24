@@ -16,19 +16,19 @@ export const bonusStyles = StyleSheet.create({
   },
   title: {
     fontSize: scale(20),
-    fontWeight: 600,
+    fontWeight: '600',
     color: '#fff',
   },
   description: {
     color: '#fff',
     fontSize: scale(14),
-    fontWeight: 400,
+    fontWeight: '400',
     marginTop: moderateVerticalScale(20),
   },
   price: {
     color: '#fff',
     fontSize: scale(14),
-    fontWeight: 400,
+    fontWeight: '400',
   },
   barcode: {
     width: scale(90),
