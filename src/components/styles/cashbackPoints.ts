@@ -54,7 +54,7 @@ export const cashbackPointsStyles = StyleSheet.create({
   },
   buttonTitle: {
     fontSize: scale(16),
-    fontWeight: 600,
+    fontWeight: '600',
     color: '#030303',
   },
   buttonDescription: {
