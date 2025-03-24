@@ -38,15 +38,24 @@ export default function App() {
 ## Props
 
 apiKey - loyalty program api key
+
 identifier: loyalty card purchase point
+
 templateCard: map layout
+
 bonus: bonus card
-loyalty_level: loyalty level card,
-gender: user gender,
+
+loyalty_level: loyalty level card
+
+gender: user gender
+
 barcode: barcode card
+
 discount: discount card
-showActivationCard: activate the button to go to the "cardActivatio" screen
-showIssueCard: activate the button to go to the card "issueCard" screen
+
+showActivationCard: activate the button to go to the "ActivationCard" screen
+
+showIssueCard: activate the button to go to the card "IssueCard" screen
 
 ## Components
 
