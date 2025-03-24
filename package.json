@@ -1,6 +1,6 @@
 {
   "name": "react-native-loyalty-programs",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "react-native-loyalty-programs",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
@@ -52,7 +52,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mobilitytop/react-native-loyalty-programs.git"
+    "url": "https://github.com/Mobilitytop/react-native-loyalty-programs.git"
   },
   "author": "Mobilitytop <arahismsn@gmail.com> (https://github.com/Mobilitytop/react-native-loyalty-programs)",
   "license": "MIT",
