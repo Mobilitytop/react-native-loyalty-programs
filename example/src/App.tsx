@@ -8,13 +8,14 @@ export default function App() {
         identifier: '',
         templateCard: '',
         bonus: 10,
-        loyalty_level: '200',
-        gender: 'm',
-        barcode: 'barcode',
-        discount: '150',
+        loyalty_level: '',
+        gender: '',
+        barcode: '',
+        discount: '',
       }}
       loyaltyConfig={{
         showActivationCard: true,
+        showIssueCard: false,
       }}
     />
   );

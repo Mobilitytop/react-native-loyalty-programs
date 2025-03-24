@@ -12,7 +12,6 @@ export type ModuleProps = {
   loyaltyConfig?: {
     showIssueCard?: boolean;
     showActivationCard?: boolean;
-    loyaltyPrograms?: string;
   };
 };
 

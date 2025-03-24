@@ -11,34 +11,48 @@ npm install react-native-loyalty-programs
 ## Usage
 
 ```js
-
-import { CashbackPoints,  ActivationCard, IssueCard} from 'react-native-loyalty-programs';
+import { CashbackPoints } from 'react-native-loyalty-programs';
 
 export default function App() {
   return (
     <CashbackPoints
-      apiKey=""
-      identifier=""
-      templateCard=""
-      showActivationCard - optional
-      showIssueCard - optional
+      postConfig={{
+        apiKey: '',
+        identifier: '',
+        templateCard: '',
+        bonus: '',
+        loyalty_level: '',
+        gender: '',
+        barcode: '',
+        discount: '',
+      }}
+      loyaltyConfig={{
+        showActivationCard: true,
+        showIssueCard: false,
+      }}
     />
   );
 }
-
-Вы можете вызвать эти компоненты по отдельности.
-
-export default function App() {
-  return (
-    <ActivationCard
-      apiKey=""
-      identifier=""
-      templateCard=""
-    />
-  );
-}
-
 ```
+
+## Props
+
+apiKey - loyalty program api key
+identifier: loyalty card purchase point
+templateCard: map layout
+bonus: bonus card
+loyalty_level: loyalty level card,
+gender: user gender,
+barcode: barcode card
+discount: discount card
+showActivationCard: activate the button to go to the "cardActivatio" screen
+showIssueCard: activate the button to go to the card "issueCard" screen
+
+## Components
+
+You can also call components individually as needed such as
+
+import { CashbackPoints, Bonus, ActivationCard, IssueCard } from 'react-native-loyalty-programs';
 
 ## Contributing
 
