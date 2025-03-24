@@ -1,4 +1,4 @@
-import type { PassesTeycaProps } from '../interface';
+import type { PassesTeycaProps } from '../shared/interface';
 import { API_URL_TEYCA } from './config';
 
 export const PassesTeyka = {

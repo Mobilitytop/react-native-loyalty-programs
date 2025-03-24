@@ -10602,7 +10602,6 @@ __metadata:
     react-native-builder-bob: ^0.36.0
     react-native-mask-input: ^1.2.3
     react-native-size-matters: ^0.4.2
-    react-native-svg: ^15.11.2
     release-it: ^17.10.0
     turbo: ^1.10.7
     typescript: ^5.2.2

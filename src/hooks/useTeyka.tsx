@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import { AuthTeyka } from '../api/auth.teyka';
 import { PassesTeyka } from '../api/passes.teyka';
-import type { getTokenProps, PassesTeycaProps } from '../interface';
+import type { getTokenProps, PassesTeycaProps } from '../shared/interface';
 
 export const useTeyka = (apiKey: string, identifier: string) => {
   const { getToken, deleteToken, createToken } = AuthTeyka;

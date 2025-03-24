@@ -1,21 +1,8 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet } from 'react-native';
+import { windowWidth } from '../../shared/constants';
 import { moderateVerticalScale, scale } from 'react-native-size-matters';
-import { windowWidth } from './constants';
 
-export const Bonus = () => {
-  return (
-    <View style={styles.container}>
-      <View style={styles.info}>
-        <Text style={styles.title}>300 бонусов</Text>
-        <Text style={styles.price}>30 ₽</Text>
-        <Text style={styles.description}>Сгорят 10.02.2024</Text>
-      </View>
-      <View style={styles.barcode} />
-    </View>
-  );
-};
-
-const styles = StyleSheet.create({
+export const bonusStyles = StyleSheet.create({
   container: {
     width: '100%',
     backgroundColor: '#F93D00',

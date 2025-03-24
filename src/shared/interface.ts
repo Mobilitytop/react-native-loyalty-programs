@@ -1,12 +1,3 @@
-export interface ModuleProps {
-  apiKey: string;
-  identifier: string;
-  templateCard: string;
-  loyaltyPrograms?: string;
-  showIssueCard?: boolean;
-  showActivationCard?: boolean;
-}
-
 export interface PassesTeycaProps {
   template: string;
   first_name: string;

@@ -1,43 +1,11 @@
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { StyleSheet } from 'react-native';
 import {
   moderateScale,
   moderateVerticalScale,
   scale,
 } from 'react-native-size-matters';
-import MaskInput, { Masks } from 'react-native-mask-input';
-import { useState } from 'react';
 
-export const ActivationCard = ({}) => {
-  const [creditCard, setCreditCard] = useState('');
-
-  return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Активация карты{'\n'}лояльности</Text>
-      <Text style={styles.description}>Активация карты лояльности</Text>
-
-      <View style={styles.card}>
-        <MaskInput
-          value={creditCard}
-          style={styles.input}
-          onChangeText={setCreditCard}
-          mask={Masks.CREDIT_CARD}
-          placeholder="Номер карты"
-          placeholderTextColor="#828282"
-        />
-      </View>
-
-      <Text style={styles.policy}>
-        Заполните все поля, и мы активируем карту
-      </Text>
-
-      <TouchableOpacity disabled={creditCard.length < 19} style={styles.button}>
-        <Text style={styles.buttonText}>Активировать</Text>
-      </TouchableOpacity>
-    </View>
-  );
-};
-
-const styles = StyleSheet.create({
+export const activationCardStyles = StyleSheet.create({
   container: {
     flex: 1,
     paddingHorizontal: moderateScale(15),
